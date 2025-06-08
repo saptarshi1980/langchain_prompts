@@ -3,20 +3,20 @@ langchain
 langchain-core
 
 # OpenAI Integration
-langchain-openai
-openai
+#langchain-openai
+#openai
 
 # Anthropic Integration
-langchain-anthropic
+#langchain-anthropic
 
 # Google Gemini (PaLM) Integration
-langchain-google-genai
-google-generativeai
+#langchain-google-genai
+#google-generativeai
 
 # Hugging Face Integration
-langchain-huggingface
-transformers
-huggingface-hub
+#langchain-huggingface
+#transformers
+#huggingface-hub
 
 # Environment Variable Management
 python-dotenv
@@ -25,10 +25,10 @@ python-dotenv
 numpy
 scikit-learn
 streamlit
-transformers 
-torch 
-sentencepiece 
-accelerate
+#transformers 
+#torch 
+#sentencepiece 
+#accelerate
 langchain
 langchain-groq
 grandalf
