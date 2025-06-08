@@ -40,7 +40,7 @@ prompt1 = PromptTemplate(
 prompt_positive = PromptTemplate(
     template="""
 Write only the body of a formal thank-you letter (no title, no introduction, no commentary) for the following positive feedback. Do not include phrases like "Here is a letter" or "Dear [Name]". 
-Start the letter with "Sir/Madam," and end it formally. Organization - Saptarshi Sanyal.
+Start the letter with "Sir/Madam," and end it formally. Organization - THE DURGAPUR PROJECTS LIMITED.
 
 Feedback: "{feedback}"
 
@@ -54,7 +54,7 @@ If any specific points are mentioned below, include them in the letter:
 prompt_negative = PromptTemplate(
     template="""
 Write only the body of a sincere apology letter (no preamble or titles) for the following negative feedback. Do not include phrases like "Here's a letter" or "Dear [Name]". 
-Start the letter with "Sir/Madam," and end it formally. Organization - The Durgapur Projects Limited.
+Start the letter with "Sir/Madam," and end it formally. Organization - Saptarshi Sanyal.
 
 Feedback: "{feedback}"
 
